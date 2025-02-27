@@ -21,7 +21,6 @@ public class PessoaFisica extends Pessoa {
 		this.gastoComSaude = gastoComSaude;
 	}
 
-	// errado abaixo
 	@Override
 	public double pagaImposto() {
 		if (rendaAnual >= 20000) {

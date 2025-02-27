@@ -13,7 +13,6 @@ public class PessoaJuridica extends Pessoa {
 		this.numeroFuncionario = numeroFuncionario;
 	}
 
-	// errado abaixo
 	@Override
 	public double pagaImposto() {
 		if (numeroFuncionario > 10) {
